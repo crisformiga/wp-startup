@@ -1,0 +1,171 @@
+/*
+Theme Name: Site Cristiano
+Theme:URI: http://localhost/wp-startup
+Description: Primeiro Site Profissional
+Author: Cristiano
+Author: URI: http://localhost/wp-startup
+Version: 1.0
+*/
+body{
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Parte HEADER*/
+.header{
+    height: 890px;
+    background: url('assets/images/alexandre-debieve-561298-unsplash.jpg') center ;
+    padding:  10px 0;
+    background-size: cover; /* Deixar a imagem sem expandir la, pegando pixels ajustado*/
+}/* Inicio HEADER nome do site CRISTIANOWP*/
+
+.header h3{
+    margin: 0;
+   
+}
+.header h3 a{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: black;
+    display: block;
+    padding: 8px;
+    width: 150px;
+    text-align: center;
+    border-radius: 3px 8px;
+    
+}
+.header h3:hover > a{
+    color: red;
+}
+.header h1 a{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+.header h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 5px 0;
+}
+/* Parte WRAP*/
+.wrap{
+    margin:  0 auto;
+    width: 960px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.wrap h1 {
+    margin: 8px 0;
+}
+/* Parte INFO*/
+.header .info{
+    padding: 70px;
+    margin: 0 auto;
+    height: 820px;
+    text-align: center;
+
+}
+.header .info h2{
+    color: #ffffff;
+    font-size: 40px;
+    
+}
+.header .info p{
+    color:palegreen;
+    font-size: 30px;
+    font-weight: lighter;
+    background-color: black;
+    border-radius: 12px 6px;
+}
+.custom-botao{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 80px;
+    font-size:28px;
+    margin: 0 auto;
+    padding:  10px 20px;
+    width: 150px;
+    text-align: center;
+}
+/* Parte WRAP*/
+.wrap{
+    margin:  0 auto;
+    width: 800px;
+}
+
+/* Parte BLOG*/
+.blog{
+    padding: 6px 0;
+}
+.blog h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Parte POST*/
+
+.list-post img{
+    float: left;
+    margin: -10px -100px;
+    padding: 10px;
+    
+}
+
+
+.segundo-post img{
+    float: right;
+    margin-left:18px; 
+    padding: 22px;
+    
+}
+.segundo-post .content-post{
+    float: left;
+    
+} 
+.content-post{
+    float: right;
+    width: 400px;
+    text-align: left;
+    margin-bottom: 0px 20px;
+}
+.content-post p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.segundo-post .content-post p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: -2px;
+   
+}
+.content-post a{
+    display: inline-block;
+    width: 150px;
+    background-color: blue;
+}
+
+/* Parte pagina criada STARTUP ,mas cancelada por motivo de nao criacao */
+/* header-two */
+.header-two h3{
+    padding: 18px;
+}
+.header-two a{
+    text-decoration: none;
+    padding: 20px;
+}
+.header-two h1{
+    padding: 10px;
+    
+}
+.box-two{
+    padding: 60px;
+    background-image: url('assets/images/headway-551543-unsplash.jpg');
+}
